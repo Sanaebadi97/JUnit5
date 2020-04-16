@@ -23,6 +23,6 @@ The Jupiter sub-project provides a TestEngine for running Jupiter based tests on
 
 ![extensions_DatabaseTestsDemo](https://user-images.githubusercontent.com/26750131/79479277-889fe600-7fda-11ea-97c4-ea8b7d5d77aa.png)
 
-### [RESOURCE](https://junit.org/junit5/docs/current/user-guide/) :point_left:
+:point_right: ### [RESOURCE](https://junit.org/junit5/docs/current/user-guide/) :point_left:
 
 
