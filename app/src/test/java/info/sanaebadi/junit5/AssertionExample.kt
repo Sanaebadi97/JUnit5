@@ -1,10 +1,10 @@
 package info.sanaebadi.junit5
 
 import org.junit.jupiter.api.Assertions
-import org.junit.jupiter.api.Assertions.assertNotEquals
-import org.junit.jupiter.api.Assertions.assertThrows
+import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Test
 import java.util.*
+import org.junit.jupiter.api.Assertions.assertAll as assertAll
 
 class AssertionExample {
     @Test
@@ -38,5 +38,15 @@ class AssertionExample {
         println("")
     }
 
+
+//    @Test
+//    fun multipleAssertion() {
+//        assertAll(
+//            "Multiple checks",
+//            assertEquals("Hello world", "Hello " + "world"),
+//            assertTrue(2 + 2 == 4)
+//        )
+//
+//    }
 
 }
