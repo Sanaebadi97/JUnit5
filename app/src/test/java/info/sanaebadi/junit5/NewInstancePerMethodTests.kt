@@ -1,7 +1,10 @@
 package info.sanaebadi.junit5
 
 import org.junit.jupiter.api.Test
+import org.junit.jupiter.api.TestInstance
 
+
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 class NewInstancePerMethodTests {
 
     @Test
