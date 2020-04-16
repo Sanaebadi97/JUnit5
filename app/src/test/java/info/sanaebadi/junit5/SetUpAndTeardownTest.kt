@@ -1,19 +1,37 @@
 package info.sanaebadi.junit5
 
-import org.junit.Before
-import org.junit.jupiter.api.AfterEach
-import org.junit.jupiter.api.BeforeEach
+import org.junit.Test
+import org.junit.jupiter.api.AfterAll
+import org.junit.jupiter.api.BeforeAll
 
 class SetUpAndTeardownTest {
 
-
-    @BeforeEach
-    fun beforeEach() {
-        println("Called before each test method in this class")
+    @BeforeAll
+    fun beforeAll() {
+        println("Running before the first test")
     }
 
-    @AfterEach
-    fun afterEach() {
-        println("Called after each test method in this class")
+    @AfterAll
+    fun afterAll() {
+        println("Running after the last test")
     }
+
+
+    @Test
+    fun test1() {
+        println("Running Test 1")
+    }
+
+    @Test
+    fun test2() {
+        println("Running Test 2")
+    }
+
+    @Test
+    fun test3() {
+        println("Running Test 3")
+    }
+
+
+
 }
