@@ -11,7 +11,7 @@ class AssertionExample {
         val string1 = "Hello World12"
         val string2 = "Hello World"
 
-        assertNotEquals(string1, string2)
+        assertNotEquals(string1, string2 , "Message if assertion fails")
         println("is not same")
     }
 }
