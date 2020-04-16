@@ -18,10 +18,7 @@ Visual Studio Code) and build tools (see Gradle, Maven, and Ant).
 
 
 
-JUnit Jupiter is the combination of the new programming model and extension model for writing tests and extensions in JUnit 5. The 
-Jupiter sub-project provides a TestEngine for running Jupiter based tests on the platform.
-
-JUnit Vintage provides a TestEngine for running JUnit 3 and JUnit 4 based tests on the platform.
+JUnit Jupiter is the combination of the new programming model and extension model for writing tests and extensions in JUnit 5. The Jupiter sub-project provides a TestEngine for running Jupiter based tests on the platform.JUnit Vintage provides a TestEngine for running JUnit 3 and JUnit 4 based tests on the platform.
 
 ![extensions_DatabaseTestsDemo](https://user-images.githubusercontent.com/26750131/79479277-889fe600-7fda-11ea-97c4-ea8b7d5d77aa.png)
 https://junit.org/junit5/docs/current/user-guide/
