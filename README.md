@@ -13,7 +13,7 @@ developing a testing framework that runs on the platform.
 
 Furthermore, the platform provides a Console Launcher to launch the 
 platform from the command line and a JUnit 4 based Runner for running any TestEngine on the platform in a JUnit 4 based 
-environment. First-class support for the JUnit Platform also exists in popular IDEs (see **IntelliJ IDEA**, **Eclipse**, **NetBeans**, and **Visual Studio Code**) and build tools (see **Gradle**, **Maven**, and Ant).
+environment. First-class support for the JUnit Platform also exists in popular IDEs (see **IntelliJ IDEA**, **Eclipse**, **NetBeans**, and **Visual Studio Code**) and build tools (see **Gradle**, **Maven**, and **Ant**).
 
 
 
