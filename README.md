@@ -4,5 +4,5 @@ Unlike previous versions of JUnit, JUnit 5 is composed of several different modu
 
 
 JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
-
+The JUnit Platform serves as a foundation for launching testing frameworks on the JVM. It also defines the TestEngine API for 
 
