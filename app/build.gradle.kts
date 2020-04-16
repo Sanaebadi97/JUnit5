@@ -1,3 +1,5 @@
+import de.mannodermaus.gradle.plugins.junit5.junitPlatform
+
 plugins {
     id(BuildPlugins.androidApplication)
     id(BuildPlugins.kotlinAndroid)
@@ -25,6 +27,11 @@ android {
         }
     }
 
+    testOptions {
+        junitPlatform {
+           // configurationParameter  ("junit.jupiter.testinstance.lifecycle.default", "per_class")
+        }
+    }
 
 }
 
