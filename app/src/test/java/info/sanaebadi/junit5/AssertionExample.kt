@@ -2,7 +2,6 @@ package info.sanaebadi.junit5
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.assertNotEquals
-import org.junit.jupiter.api.Assertions.assertSame
 import org.junit.jupiter.api.Test
 
 class AssertionExample {
@@ -11,7 +10,16 @@ class AssertionExample {
         val string1 = "Hello World12"
         val string2 = "Hello World"
 
-        assertNotEquals(string1, string2 , "Message if assertion fails")
-        println("is not same")
+        assertNotEquals(string1, string2, "Message if assertion fails")
+        //  println("is not same")
+    }
+
+
+    @Test
+    fun exampleBooleanAssertions() {
+        val myRank = 5
+        val total = 100
+        Assertions.assertTrue(myRank > total)
+        println("is false")
     }
 }
