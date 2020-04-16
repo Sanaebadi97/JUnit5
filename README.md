@@ -1,2 +1,3 @@
 # Junit5
-JUnit 5 = JUnit Platform + JUnit Jupiter + JUnit Vintage
+1.1. What is JUnit 5?
+
