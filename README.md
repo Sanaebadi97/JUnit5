@@ -11,3 +11,4 @@ platform from the command line and a JUnit 4 based Runner for running any TestEn
 environment. First-class support for the JUnit Platform also exists in popular IDEs (see IntelliJ IDEA, Eclipse, NetBeans, and 
 Visual Studio Code) and build tools (see Gradle, Maven, and Ant).
 
+JUnit Jupiter is the combination of the new programming model and extension model for writing tests and extensions in JUnit 5. The 
