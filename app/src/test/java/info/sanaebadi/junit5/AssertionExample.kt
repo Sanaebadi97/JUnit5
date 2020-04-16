@@ -20,6 +20,20 @@ class AssertionExample {
         val myRank = 5
         val total = 100
         Assertions.assertTrue(myRank > total)
-        println("is false")
+        // println("is false")
     }
+
+    @Test
+    fun exampleNullAndNotNull() {
+        val string1 = "1234"
+        val string2 = "One"
+        val string3 = "Hello World"
+
+        Assertions.assertNotNull(string1.toIntOrNull())
+        Assertions.assertNull(string2.toIntOrNull())
+        Assertions.assertNull(string3.toIntOrNull())
+
+        println("")
+    }
+
 }
