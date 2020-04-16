@@ -9,7 +9,6 @@ Unlike previous versions of ``JUnit``, **JUnit 5** is composed of several differ
 
 
 The JUnit Platform serves as a foundation for launching testing frameworks on the JVM. It also defines the TestEngine API for 
-
 developing a testing framework that runs on the platform.
 
 Furthermore, the platform provides a Console Launcher to launch the 
