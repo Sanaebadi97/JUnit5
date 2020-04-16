@@ -1,5 +1,5 @@
 # Junit5
-## What is JUnit 5? :heart_eyes:
+## What is JUnit 5? :question:
 
 Unlike previous versions of ``JUnit``, **JUnit 5** is composed of several different modules from three different sub-projects.
 
