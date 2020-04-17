@@ -2,11 +2,14 @@ package info.sanaebadi.junit5.model
 
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertAll
 
 class UserTest {
     @Test
+
+    @Disabled
     fun testMultiplePropertiesOfUser() {
         val user = User(
             firstName = "Hoge",

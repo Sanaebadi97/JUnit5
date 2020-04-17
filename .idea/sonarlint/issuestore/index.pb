@@ -78,3 +78,15 @@ u
 Eapp/src/test/java/info/sanaebadi/junit5/SetupAndTeardownKotlinTest.kt,a/e/aeacd9956e2fea8fb172f0e6a6d62cb84417d107
 o
 ?app/src/test/java/info/sanaebadi/junit5/SetUpAndTeardownTest.kt,5/b/5b0aacc352e7427078d92ff95fca7ccc969721b1
+t
+Dapp/src/test/java/info/sanaebadi/junit5/NewInstancePerMethodTests.kt,a/7/a79aa8a05575ee4b76f499a0cd3246b31cdd6eb9
+s
+Capp/src/test/java/info/sanaebadi/junit5/NewInstancePerClassTests.kt,b/3/b336a0c75f53e85f6d7e02f67e2ea9aa7660d3c6
+l
+<app/src/test/java/info/sanaebadi/junit5/CardContainedTest.kt,6/f/6f087e52d3f056e03a49519dbc146a7cba5e836a
+k
+;app/src/test/java/info/sanaebadi/junit5/AssertionExample.kt,b/d/bddacea3433fa87f8f267a31c9388b3643ad191c
+e
+5app/src/main/java/info/sanaebadi/junit5/model/User.kt,6/c/6ceaad93d707c70dac36d5aa9660f0376762dec2
+i
+9app/src/test/java/info/sanaebadi/junit5/model/UserTest.kt,a/d/ad07616cdc86c5adc4561ec52716ab58445bcf45
