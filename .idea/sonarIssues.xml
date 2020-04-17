@@ -78,6 +78,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/NumberTests.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/SetUpAndTeardownTest.kt">
           <value>
             <set />
