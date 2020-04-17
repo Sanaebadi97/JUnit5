@@ -90,3 +90,7 @@ e
 5app/src/main/java/info/sanaebadi/junit5/model/User.kt,6/c/6ceaad93d707c70dac36d5aa9660f0376762dec2
 i
 9app/src/test/java/info/sanaebadi/junit5/model/UserTest.kt,a/d/ad07616cdc86c5adc4561ec52716ab58445bcf45
+r
+Bapp/src/test/java/info/sanaebadi/junit5/EnvironmentVariableTest.kt,a/4/a40b4353e6d1e711e86d2d69dd4924efcf6ae8ab
+f
+6app/src/test/java/info/sanaebadi/junit5/NumberTests.kt,f/1/f10096d71fd79ea0d0b29ea7a9c858977e59ac99
