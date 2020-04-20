@@ -7,5 +7,9 @@ class MathUtils {
         fun add(a: Int, b: Int): Int {
             return a + b
         }
+
+        fun computeCircleArea(radius: Double): Double {
+            return 0.0
+        }
     }
 }
