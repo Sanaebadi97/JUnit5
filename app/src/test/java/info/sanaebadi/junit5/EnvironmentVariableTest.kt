@@ -1,8 +1,5 @@
 package info.sanaebadi.junit5
 
-import android.graphics.Insets.add
-import info.sanaebadi.junit5.model.Card
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.condition.DisabledIfEnvironmentVariable
 import org.junit.jupiter.api.condition.EnabledIfEnvironmentVariable

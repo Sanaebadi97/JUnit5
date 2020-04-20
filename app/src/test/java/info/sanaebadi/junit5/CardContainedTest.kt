@@ -1,10 +1,7 @@
 package info.sanaebadi.junit5
 
-import info.sanaebadi.junit5.model.Card
-import info.sanaebadi.junit5.model.Deck
-import org.junit.Assert
+import info.sanaebadi.junit5.caster.model.Card
 import org.junit.jupiter.api.Test
-import java.util.logging.Level.parse
 
 class CardContainedTest {
 

@@ -1,7 +1,8 @@
-package info.sanaebadi.junit5
+package info.sanaebadi.junit5.caster
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import info.sanaebadi.junit5.R
 
 class MainActivity : AppCompatActivity() {
 

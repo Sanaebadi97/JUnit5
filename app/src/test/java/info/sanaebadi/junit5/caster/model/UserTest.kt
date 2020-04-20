@@ -1,6 +1,5 @@
-package info.sanaebadi.junit5.model
+package info.sanaebadi.junit5.caster.model
 
-import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Disabled
 import org.junit.jupiter.api.Test

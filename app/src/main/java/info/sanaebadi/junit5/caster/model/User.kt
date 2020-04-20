@@ -1,4 +1,4 @@
-package info.sanaebadi.junit5.model
+package info.sanaebadi.junit5.caster.model
 
 data class User(
     val firstName: String,

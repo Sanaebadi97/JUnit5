@@ -1,7 +1,6 @@
 package info.sanaebadi.junit5
 
-import info.sanaebadi.junit5.model.Deck
-import org.junit.Assert
+import info.sanaebadi.junit5.caster.model.Deck
 import org.junit.Assert.assertTrue
 import org.junit.Test
 import java.util.*
