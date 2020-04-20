@@ -16,5 +16,10 @@ internal class MathUtilsTest {
         assertNotEquals(8, MathUtils.add(5, 9))
     }
 
+    @Test
+    internal fun computeCircleArea() {
+        assertEquals(12.566370614359172, MathUtils.computeCircleArea(2.0))
+    }
+
 
 }

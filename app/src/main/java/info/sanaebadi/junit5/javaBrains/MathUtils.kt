@@ -9,7 +9,10 @@ class MathUtils {
         }
 
         fun computeCircleArea(radius: Double): Double {
-            return 0.0
+
+            var area = Math.PI * radius * radius
+
+            return area
         }
     }
 }
