@@ -1,12 +1,9 @@
 package info.sanaebadi.junit5.javaBrains
 
-import org.junit.Assert
-import org.junit.jupiter.api.Assertions
+import org.junit.jupiter.api.AfterEach
 import org.junit.jupiter.api.Assertions.*
-import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
-import java.lang.ArithmeticException
 
 internal class MathUtilsTest {
 
@@ -16,6 +13,12 @@ internal class MathUtilsTest {
     @BeforeEach
     fun init() {
         mathUtils = MathUtils()
+    }
+
+
+    @AfterEach
+    fun cleanup(){
+        println("Cleaning up ...")
     }
 
     @Test
