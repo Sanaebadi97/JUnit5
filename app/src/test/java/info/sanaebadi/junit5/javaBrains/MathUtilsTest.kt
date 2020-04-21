@@ -2,7 +2,6 @@ package info.sanaebadi.junit5.javaBrains
 
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.*
-import org.junit.jupiter.api.Assumptions.*
 import org.junit.jupiter.api.condition.EnabledOnOs
 import org.junit.jupiter.api.condition.OS
 import org.junit.jupiter.api.function.Executable
@@ -37,6 +36,22 @@ internal class MathUtilsTest {
 
 
     }
+
+
+    @Test
+    @DisplayName("Testing positive add method")
+    fun testAddPositive() {
+        assertEquals(2, mathUtils.add(1, 1), "The add method should add two numbers")
+    }
+
+
+    @Test
+    @DisplayName("Testing negative add method")
+    fun testAddNegative() {
+        assertEquals(-2, mathUtils.add(-1, -1), "The add method should add two numbers")
+    }
+
+
 
 
     @AfterEach
