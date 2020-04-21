@@ -4,7 +4,6 @@ import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.*
 
 
-
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
 internal class MathUtilsTest {
 
@@ -31,7 +30,6 @@ internal class MathUtilsTest {
         fun afterAllInit() {
             println("this needs to run after all")
         }
-
 
 
     }
@@ -71,5 +69,10 @@ internal class MathUtilsTest {
         assertEquals(12.566370614359172, mathUtils.computeCircleArea(2.0))
     }
 
-
+    @Test
+    @Disabled
+    @DisplayName("TDD method.Should not run")
+    fun testDisabled() {
+        fail<String>("This test should be disabled")
+    }
 }
