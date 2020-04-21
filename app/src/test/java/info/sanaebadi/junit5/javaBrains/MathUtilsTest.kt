@@ -19,6 +19,27 @@ internal class MathUtilsTest {
     }
 
 
+
+    @Nested
+    inner class AddTest {
+
+
+        @Test
+        @DisplayName("Testing positive add method")
+        fun testAddPositive() {
+            assertEquals(2, mathUtils.add(1, 1), "The add method should add two numbers")
+        }
+
+
+        @Test
+        @DisplayName("Testing negative add method")
+        fun testAddNegative() {
+            assertEquals(-2, mathUtils.add(-1, -1), "The add method should add two numbers")
+        }
+
+
+    }
+
     companion object {
 
         @BeforeAll
@@ -36,22 +57,6 @@ internal class MathUtilsTest {
 
 
     }
-
-
-    @Test
-    @DisplayName("Testing positive add method")
-    fun testAddPositive() {
-        assertEquals(2, mathUtils.add(1, 1), "The add method should add two numbers")
-    }
-
-
-    @Test
-    @DisplayName("Testing negative add method")
-    fun testAddNegative() {
-        assertEquals(-2, mathUtils.add(-1, -1), "The add method should add two numbers")
-    }
-
-
 
 
     @AfterEach
