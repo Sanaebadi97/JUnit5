@@ -19,7 +19,6 @@ internal class MathUtilsTest {
     }
 
 
-
     @Nested
     inner class AddTest {
 
@@ -121,7 +120,7 @@ internal class MathUtilsTest {
 
 
     @Test
-    @Disabled
+    @RepeatedTest(3)
     internal fun computeCircleArea() {
         assertEquals(12.566370614359172, mathUtils.computeCircleArea(2.0))
     }
