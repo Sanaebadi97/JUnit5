@@ -126,7 +126,8 @@ internal class MathUtilsTest {
     @Tag("Circle")
     @Test
     @RepeatedTest(3)
-    internal fun computeCircleArea(repetitionInfo: RepetitionInfo) {
+//    internal fun computeCircleArea(repetitionInfo: RepetitionInfo) {
+    internal fun computeCircleArea() {
 //        val currernt = repetitionInfo.currentRepetition
 //        val total = repetitionInfo.totalRepetitions
         assertEquals(12.566370614359172, mathUtils.computeCircleArea(2.0))
