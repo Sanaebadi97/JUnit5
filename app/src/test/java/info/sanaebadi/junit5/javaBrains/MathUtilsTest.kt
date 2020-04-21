@@ -19,6 +19,7 @@ internal class MathUtilsTest {
     }
 
 
+    @Tag("Math")
     @Nested
     inner class AddTest {
 
@@ -75,6 +76,7 @@ internal class MathUtilsTest {
     }
 
 
+    @Tag("Math")
     @Test
     @DisplayName("multiply method")
     fun testMultiply() {
@@ -103,6 +105,7 @@ internal class MathUtilsTest {
     }
 
 
+    @Tag("Math")
     @Test
     @EnabledOnOs(OS.LINUX)
     fun divide() {
@@ -119,12 +122,19 @@ internal class MathUtilsTest {
     }
 
 
+
+    @Tag("Circle")
     @Test
     @RepeatedTest(3)
-    internal fun computeCircleArea() {
+    internal fun computeCircleArea(repetitionInfo: RepetitionInfo) {
+//        val currernt = repetitionInfo.currentRepetition
+//        val total = repetitionInfo.totalRepetitions
         assertEquals(12.566370614359172, mathUtils.computeCircleArea(2.0))
+
+//        println("Currenet $currernt Total $total")
     }
 
+    @Tag("Math")
     @Test
     @Disabled
     @DisplayName("TDD method.Should not run")
