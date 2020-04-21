@@ -1,9 +1,9 @@
 package info.sanaebadi.junit5.javaBrains
 
 import org.junit.Assert
-import org.junit.Test
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Test
 import java.lang.ArithmeticException
 
 internal class MathUtilsTest {
@@ -19,12 +19,16 @@ internal class MathUtilsTest {
     }
 
 
-    @Test
-    fun `Dividing by zero should throw the DivideByZeroException`() {
-        val exception = assertThrows(ArithmeticException::class.java) {
-            MathUtils.divide(5, 0)
-        }
 
+
+    @Test
+    fun divide() {
+        assertThrows(
+            ArithmeticException::class.java, {
+                MathUtils.divide(1, 0)
+            },
+            "divide by zero should throw"
+        )
     }
 
 

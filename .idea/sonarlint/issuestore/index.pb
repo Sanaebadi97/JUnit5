@@ -60,8 +60,6 @@ R
 "buildSrc/build/tmp/jar/MANIFEST.MF,8/d/8d5b6450ab1a4e0c65c68d444b053b2f7f0b7632
 @
 build.gradle.kts,d/b/dbcff70658daf80b53ce624f6adcaa529df5ed8d
-e
-5app/src/main/java/info/sanaebadi/junit5/model/Card.kt,8/5/85b3bc2f132537d88bb706d9a528adec8b1dd10c
 f
 6app/src/test/java/info/sanaebadi/junit5/MyFirstTest.kt,d/7/d79db9f462b10130b7409b15acb4505d4a012169
 D
@@ -70,10 +68,6 @@ s
 CbuildSrc/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab,b/c/bc88d7d3d3f029fbd22dc201b8679d13c3347c27
 p
 @app/src/test/java/info/sanaebadi/junit5/SetUpAndTeardownTests.kt,1/b/1b822ed896bdfd3bcb62d51987404cabbe4292db
-e
-5app/src/main/java/info/sanaebadi/junit5/model/Deck.kt,9/4/94c8fded4ca1d12e90a4ce20972b38f1f62b76e7
-g
-7app/src/main/java/info/sanaebadi/junit5/MainActivity.kt,c/e/ce9aa3da823439242e6404e77ad9b1ab3f02e9e6
 u
 Eapp/src/test/java/info/sanaebadi/junit5/SetupAndTeardownKotlinTest.kt,a/e/aeacd9956e2fea8fb172f0e6a6d62cb84417d107
 o
@@ -86,10 +80,6 @@ l
 <app/src/test/java/info/sanaebadi/junit5/CardContainedTest.kt,6/f/6f087e52d3f056e03a49519dbc146a7cba5e836a
 k
 ;app/src/test/java/info/sanaebadi/junit5/AssertionExample.kt,b/d/bddacea3433fa87f8f267a31c9388b3643ad191c
-e
-5app/src/main/java/info/sanaebadi/junit5/model/User.kt,6/c/6ceaad93d707c70dac36d5aa9660f0376762dec2
-i
-9app/src/test/java/info/sanaebadi/junit5/model/UserTest.kt,a/d/ad07616cdc86c5adc4561ec52716ab58445bcf45
 r
 Bapp/src/test/java/info/sanaebadi/junit5/EnvironmentVariableTest.kt,a/4/a40b4353e6d1e711e86d2d69dd4924efcf6ae8ab
 f
