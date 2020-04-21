@@ -2,6 +2,7 @@ package info.sanaebadi.junit5.javaBrains
 
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.Assumptions.*
 import org.junit.jupiter.api.condition.EnabledOnOs
 import org.junit.jupiter.api.condition.OS
 
@@ -55,8 +56,12 @@ internal class MathUtilsTest {
 
 
     @Test
-    @EnabledOnOs(OS.WINDOWS)
+    @EnabledOnOs(OS.LINUX)
     fun divide() {
+
+        val isServerUp = false
+
+        assumeTrue(isServerUp)
         assertThrows(
             ArithmeticException::class.java, {
                 mathUtils.divide(1, 0)
