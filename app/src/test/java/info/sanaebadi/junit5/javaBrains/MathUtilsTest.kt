@@ -5,6 +5,7 @@ import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.Assumptions.*
 import org.junit.jupiter.api.condition.EnabledOnOs
 import org.junit.jupiter.api.condition.OS
+import org.junit.jupiter.api.function.Executable
 
 
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
@@ -56,12 +57,40 @@ internal class MathUtilsTest {
 
 
     @Test
+    @DisplayName("multiply method")
+    fun testMultiply() {
+        //assertEquals(4,mathUtils.add(2,2),"should return the right product")
+
+        assertAll(
+            Executable {
+                assertEquals(
+                    4,
+                    mathUtils.multiply(2, 2)
+                )
+            },
+            Executable {
+                assertEquals(
+                    0,
+                    mathUtils.multiply(2, 0)
+                )
+            },
+            Executable {
+                assertEquals(
+                    -2,
+                    mathUtils.multiply(2, -1)
+                )
+            }
+        )
+    }
+
+
+    @Test
     @EnabledOnOs(OS.LINUX)
     fun divide() {
 
         val isServerUp = false
 
-        assumeTrue(isServerUp)
+//        assumeTrue(isServerUp)
         assertThrows(
             ArithmeticException::class.java, {
                 mathUtils.divide(1, 0)

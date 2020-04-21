@@ -68,6 +68,11 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/CLASStEST.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/CardContainedTest.kt">
           <value>
             <set />
@@ -114,6 +119,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/SetupAndTeardownKotlinTest.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/TestClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/junit5/TestClass.kt">
           <value>
             <set />
           </value>
