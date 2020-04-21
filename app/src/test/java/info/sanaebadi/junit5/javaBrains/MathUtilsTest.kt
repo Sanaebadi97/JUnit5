@@ -66,6 +66,7 @@ internal class MathUtilsTest {
 
 
     @Test
+    @Disabled
     internal fun computeCircleArea() {
         assertEquals(12.566370614359172, mathUtils.computeCircleArea(2.0))
     }
