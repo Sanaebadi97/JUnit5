@@ -3,7 +3,6 @@ package info.sanaebadi.junit5.javaBrains
 class MathUtils {
 
 
-    companion object {
         fun add(a: Int, b: Int): Int {
             return a + b
         }
@@ -25,5 +24,4 @@ class MathUtils {
             var area = Math.PI * radius * radius
             return area
         }
-    }
 }
