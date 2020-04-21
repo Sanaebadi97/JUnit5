@@ -43,6 +43,7 @@ internal class MathUtilsTest {
     }
 
     @Test
+    @DisplayName("Testing add method ")
     internal fun addEquals() {
         assertEquals(6, mathUtils.add(2, 4))
     }
