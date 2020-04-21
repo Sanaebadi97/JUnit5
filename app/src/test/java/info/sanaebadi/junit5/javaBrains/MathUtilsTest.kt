@@ -4,6 +4,7 @@ import org.junit.Assert
 import org.junit.jupiter.api.Assertions
 import org.junit.jupiter.api.Assertions.*
 import org.junit.jupiter.api.BeforeAll
+import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 import java.lang.ArithmeticException
 
@@ -12,7 +13,7 @@ internal class MathUtilsTest {
 
     lateinit var mathUtils: MathUtils
 
-    @BeforeAll
+    @BeforeEach
     fun init() {
         mathUtils = MathUtils()
     }
