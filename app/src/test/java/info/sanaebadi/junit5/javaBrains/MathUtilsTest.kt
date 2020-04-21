@@ -13,9 +13,14 @@ internal class MathUtilsTest {
 
     lateinit var mathUtils: MathUtils
 
+    lateinit var testInfo: TestInfo
+    lateinit var testReporter: TestReporter
+
     @BeforeEach
-    fun init() {
-        mathUtils = MathUtils()
+    fun init(testInfo: TestInfo, testReporter: TestReporter) {
+     mathUtils = MathUtils()
+//        testInfo.displayName
+//        testInfo.tags
     }
 
 
@@ -120,7 +125,6 @@ internal class MathUtilsTest {
             "divide by zero should throw"
         )
     }
-
 
 
     @Tag("Circle")
