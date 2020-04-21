@@ -2,6 +2,8 @@ package info.sanaebadi.junit5.javaBrains
 
 import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.*
+import org.junit.jupiter.api.condition.EnabledOnOs
+import org.junit.jupiter.api.condition.OS
 
 
 @TestInstance(TestInstance.Lifecycle.PER_METHOD)
@@ -53,6 +55,7 @@ internal class MathUtilsTest {
 
 
     @Test
+    @EnabledOnOs(OS.WINDOWS)
     fun divide() {
         assertThrows(
             ArithmeticException::class.java, {
