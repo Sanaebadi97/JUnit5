@@ -8,6 +8,11 @@
             <set />
           </value>
         </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/app/build.gradle">
           <value>
             <set />
@@ -44,6 +49,16 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/app/src/main/java/info/sanaebadi/junit5/model/User.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/TST.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/test/java/info/sanaebadi/TST.kt">
           <value>
             <set />
           </value>

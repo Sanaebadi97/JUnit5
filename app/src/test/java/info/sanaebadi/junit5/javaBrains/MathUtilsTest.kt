@@ -1,10 +1,11 @@
 package info.sanaebadi.junit5.javaBrains
 
-import org.junit.jupiter.api.AfterEach
+import org.junit.jupiter.api.*
 import org.junit.jupiter.api.Assertions.*
-import org.junit.jupiter.api.BeforeEach
-import org.junit.jupiter.api.Test
 
+
+
+@TestInstance(TestInstance.Lifecycle.PER_CLASS)
 internal class MathUtilsTest {
 
 
@@ -16,8 +17,28 @@ internal class MathUtilsTest {
     }
 
 
+    companion object {
+
+        @BeforeAll
+        @JvmStatic
+        fun beforeAllInit() {
+            println("this needs to run before all")
+        }
+
+
+        @AfterAll
+        @JvmStatic
+        fun afterAllInit() {
+            println("this needs to run after all")
+        }
+
+
+
+    }
+
+
     @AfterEach
-    fun cleanup(){
+    fun cleanup() {
         println("Cleaning up ...")
     }
 
