@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Assertions.*
 
 
 
-@TestInstance(TestInstance.Lifecycle.PER_CLASS)
+@TestInstance(TestInstance.Lifecycle.PER_METHOD)
 internal class MathUtilsTest {
 
 
